@@ -108,11 +108,18 @@
                         <div class="col-md-6 order-lg-1 order-2">
                             <img class="img-fluid" src="images/second-sec-img.png" alt="" />
                         </div>
-                        <div class="col-md-6 order-lg-2 order-1">
+                        <div class="position-relative col-md-6 order-lg-2 order-1">
                             <h3 class="fw-bold sec-title text-primary">Every moment is Precious</h3>
                             <p class="py-3">Special moments can be powerful. It can change us in a positive way. It empowers us, makes us happy. We, <span class="text-primary text-decoration-underline">Hasan Convention Center</span>, are here to capture all of your happy moments and gift you a bunch of pleasent memories of all time.</p>
 
                             <a href="https://smjhm.com" class="d-none d-md-inline-block btn btn-primary px-4 rounded-0 py-2">Explore our album <i class="fa fa-arrow-right"></i></a>
+
+                            <div class="toast w-auto border-0 position-absolute bg-light top-50 end-0 translate-middle-y shadow-lg" data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex align-items-center">
+                                    <div class="toast-body d-flex align-items-center border-start border-primary border-5"><i class="fas fa-gift me-2"></i> 20% off on next booking</div>
+                                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,6 +129,16 @@
             </div>
         </section>
 
+        <section class="packages">
+            <div class="container"></div>
+        </section>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".toast").toast("show");
+            });
+        </script>
     </body>
 </html>

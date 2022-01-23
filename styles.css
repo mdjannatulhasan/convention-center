@@ -66,3 +66,10 @@ section p {
     color: #553a24 !important;
     background: #ddd8d3 !important;
 }
+.toast-body i {
+    color: #d38938;
+    font-size: 22px;
+}
+.border-primary {
+    border-color: #d38938 !important;
+}
