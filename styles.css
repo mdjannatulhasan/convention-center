@@ -41,13 +41,28 @@ header .nav-link {
 .text-primary {
     color: #553a24 !important;
 }
-header a.btn {
+a.btn {
     font-weight: 600 !important;
 }
 header a.btn:hover {
     background: #ddd8d3;
 }
-.btn:focus,
-.btn-light:focus {
+.btn:focus {
     box-shadow: none !important;
+}
+
+.sec-title {
+    font-size: 36px;
+}
+
+section p {
+    font-size: 18px;
+}
+.btn-primary {
+    background: #553a24 !important;
+    border-color: #553a24 !important;
+}
+.btn-primary:hover {
+    color: #553a24 !important;
+    background: #ddd8d3 !important;
 }
