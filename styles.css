@@ -1,0 +1,19 @@
+/* 
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+*/
+
+/* Common Styles */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-dark,
+.nav-link {
+    color: #3e3e3e !important;
+}
+header .nav-link {
+    font-weight: 500;
+}
+/* background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url(.jpg); */
