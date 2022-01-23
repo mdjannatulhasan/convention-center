@@ -16,4 +16,38 @@ body {
 header .nav-link {
     font-weight: 500;
 }
-/* background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url(.jpg); */
+.carousel-item img {
+    height: 80vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.img-overlay {
+    position: relative;
+}
+.img-overlay::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 21.92%, rgba(0, 0, 0, 0.518) 160.04%, rgba(0, 0, 0, 0.221) 160.06%);
+}
+.slider-title {
+    font-size: 48px;
+    max-width: 600px;
+}
+.slider-text {
+    font-size: 20px;
+}
+.text-primary {
+    color: #553a24 !important;
+}
+header a.btn {
+    font-weight: 600 !important;
+}
+header a.btn:hover {
+    background: #ddd8d3;
+}
+.btn:focus,
+.btn-light:focus {
+    box-shadow: none !important;
+}
