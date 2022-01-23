@@ -47,7 +47,8 @@ a.btn {
 header a.btn:hover {
     background: #ddd8d3;
 }
-.btn:focus {
+.btn:focus,
+.accordion-button:focus {
     box-shadow: none !important;
 }
 
@@ -96,7 +97,7 @@ section p {
 }
 .package.active {
     background-color: #e5cdb2;
-    margin-top: -40px;
+    margin-top: -40px !important;
     box-shadow: 0px 42px 34px rgba(190, 165, 140, 0.36);
 }
 .package.active * {
@@ -118,9 +119,18 @@ section p {
     background-color: #553a24 !important;
 }
 .badge {
-    background-color: #d38938;
+    background-color: #d34d38;
 }
 .accordion-button:not(.collapsed) {
-    color: #0c63e4;
-    background-color: #e7f1ff;
+    box-shadow: none !important;
+}
+.accordion-header .accordion-button {
+    font-size: 20px !important;
+    font-family: "Inter", sans-serif;
+    font-weight: 500 !important;
+}
+
+.accordion-body {
+    color: #848199;
+    font-size: 16px;
 }
