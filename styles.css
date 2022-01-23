@@ -73,3 +73,54 @@ section p {
 .border-primary {
     border-color: #d38938 !important;
 }
+.icon-wrapper i {
+    font-size: 13px;
+}
+.icon-wrapper {
+    background: #f9ede3;
+    height: 22px;
+    width: 22px;
+    padding: 0px 4px;
+}
+.feature,
+.package-description {
+    font-size: 15px;
+    color: #848199;
+}
+.package {
+    padding: 50px 30px 43px;
+    border-radius: 26px;
+    background-image: url("images/lines.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.package.active {
+    background-color: #e5cdb2;
+    margin-top: -40px;
+    box-shadow: 0px 42px 34px rgba(190, 165, 140, 0.36);
+}
+.package.active * {
+    color: #553a24;
+}
+.package-btn {
+    background-color: #ddd8d3 !important;
+}
+.package-btn:hover {
+    color: #ddd8d3 !important;
+    background-color: #553a24 !important;
+}
+.package.active .package-btn:hover {
+    background-color: #ddd8d3 !important;
+    color: #553a24 !important;
+}
+.package.active .package-btn {
+    color: #ddd8d3 !important;
+    background-color: #553a24 !important;
+}
+.badge {
+    background-color: #d38938;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+}
