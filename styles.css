@@ -134,3 +134,10 @@ section p {
     color: #848199;
     font-size: 16px;
 }
+.contact .sec-sub-title {
+    font-weight: 500;
+    color: #d38938;
+}
+.contact p {
+    color: #5f4128;
+}
