@@ -141,3 +141,23 @@ section p {
 .contact p {
     color: #5f4128;
 }
+.social-icons a i {
+    color: #5f4128;
+    font-size: 35px;
+}
+.social-icons a:hover i {
+    color: #928b7f;
+}
+.form-control:focus {
+    border-color: #553a23 !important;
+    box-shadow: 0 0 0 0.25rem rgb(85 58 35 / 25%) !important;
+}
+footer {
+    background: #000;
+}
+footer a:hover svg * {
+    fill: #cf985c;
+}
+footer a:hover {
+    border-color: #cf985c !important;
+}
