@@ -18,8 +18,8 @@ a.btn {
     box-shadow: none !important;
 }
 .btn-primary {
-    background: #553a24 !important;
-    border-color: #553a24 !important;
+    background: #bc091c !important;
+    border-color: #bc091c !important;
 }
 .btn-primary:hover {
     color: #553a24 !important;
@@ -124,7 +124,7 @@ section p {
 }
 .package.active .package-btn {
     color: #ddd8d3 !important;
-    background-color: #553a24 !important;
+    background-color: #bc091c !important;
 }
 .badge {
     background-color: #d34d38;
