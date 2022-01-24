@@ -1,5 +1,13 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     .slider-title {
         font-size: 36px;
+    }
+    .package.active {
+        margin-top: -20px !important;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .package.active {
+        margin-top: 0px !important;
     }
 }
