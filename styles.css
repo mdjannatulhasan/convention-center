@@ -1,18 +1,40 @@
-/* 
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Poppins', sans-serif; 
-*/
-
 /* Common Styles */
 body {
     font-family: "Poppins", sans-serif;
 }
-
+/* Bootstrap Class Overrides */
+a.btn {
+    font-weight: 600 !important;
+}
 .text-dark,
 .nav-link {
     color: #3e3e3e !important;
 }
+.text-primary {
+    color: #302013 !important;
+}
+.btn:focus,
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.btn-primary {
+    background: #553a24 !important;
+    border-color: #553a24 !important;
+}
+.btn-primary:hover {
+    color: #553a24 !important;
+    background: #ddd8d3 !important;
+}
+.border-primary {
+    border-color: #d38938 !important;
+}
+
+.form-control:focus {
+    border-color: #553a23 !important;
+    box-shadow: 0 0 0 0.25rem rgb(85 58 35 / 25%) !important;
+}
+
+/* Header Section */
 header .nav-link {
     font-weight: 500;
 }
@@ -38,20 +60,14 @@ header .nav-link {
 .slider-text {
     font-size: 20px;
 }
-.text-primary {
-    color: #553a24 !important;
-}
-a.btn {
-    font-weight: 600 !important;
+header nav li a:hover {
+    color: #d38938 !important;
 }
 header a.btn:hover {
     background: #ddd8d3;
 }
-.btn:focus,
-.accordion-button:focus {
-    box-shadow: none !important;
-}
 
+/* Second section with toast */
 .sec-title {
     font-size: 36px;
 }
@@ -59,21 +75,13 @@ header a.btn:hover {
 section p {
     font-size: 18px;
 }
-.btn-primary {
-    background: #553a24 !important;
-    border-color: #553a24 !important;
-}
-.btn-primary:hover {
-    color: #553a24 !important;
-    background: #ddd8d3 !important;
-}
+
 .toast-body i {
     color: #d38938;
     font-size: 22px;
 }
-.border-primary {
-    border-color: #d38938 !important;
-}
+
+/* Package section */
 .icon-wrapper i {
     font-size: 13px;
 }
@@ -130,10 +138,13 @@ section p {
     font-weight: 500 !important;
 }
 
+/* FAQ section */
 .accordion-body {
     color: #848199;
     font-size: 16px;
 }
+
+/* Contact Us Section */
 .contact .sec-sub-title {
     font-weight: 500;
     color: #d38938;
@@ -148,12 +159,13 @@ section p {
 .social-icons a:hover i {
     color: #928b7f;
 }
-.form-control:focus {
-    border-color: #553a23 !important;
-    box-shadow: 0 0 0 0.25rem rgb(85 58 35 / 25%) !important;
-}
+
+/* Footer section */
 footer {
     background: #000;
+}
+footer p {
+    font-family: "Manrope", sans-serif;
 }
 footer a:hover svg * {
     fill: #cf985c;
