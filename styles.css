@@ -82,6 +82,9 @@ section p {
 }
 
 /* Package section */
+.package-name {
+    font-weight: 600;
+}
 .icon-wrapper i {
     font-size: 13px;
 }
